@@ -17,6 +17,7 @@ In emails all font in the body should be:
 - Black: hexcode `#000000`
 - Font Size 18
 - Font Type: Georgia
+
 Exceptions to this rule include:
 - When using italics as fine print (detailed under italics)
 - When thematically appropriate
@@ -49,6 +50,8 @@ Italics should be used in the following cases
 - Work and Film Titles (See NWS General Style Guide on formatting work titles)
 - Sparingly for emphasis
 - Concert Titles (Again, see NWS General Style Guide on use of italics)
+- When providing commentary directly under an image.
+  - Example: *Xavier Foley (left) returns to New West Symphony this October to perform Bottesini alongside Eminem (right)*
 
 ### Titles
 Header and Section Titles in mailchimp should be:
