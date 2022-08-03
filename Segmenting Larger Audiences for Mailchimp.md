@@ -1,6 +1,6 @@
 # Segmenting Larger Audiences
 There will be a few times that you need to segment a larger audience for mailchimp mailings. 
-This is a step-by-step with a theorhetical audience of 6000 people: You have been requested to create 2 audiences of 1000 people each from this 6000 person segment, and to exclude the rest of the members from recieving these emails.
+This is a step-by-step with a theorhetical audience of 6000 people: You have been requested to create 2 audiences of 1000 people each from this 6000 person segment, and to exclude the rest of the audience members from recieving these emails. The following instructions detail the procces of how to get as close as possible two audiences of 1000.
 
 Make sure your report will give you the following: 
 - 18-Digit Contact ID
