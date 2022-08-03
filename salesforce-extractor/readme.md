@@ -1,10 +1,11 @@
 # Readme.md
-This file documents part of a larger project called salesforce-extractor, which involves exporting large amounts of data from Salesforce with a Golang script. The documentation here describes the use of the `generate.sh` and `submit.sh` bash scripts, as well as the proccess of scheduling a new topic to be run through an instance of the salesforce-extractor Docker container.
+This file documents part of a larger project called `salesforce-extractor`, which involves exporting large amounts of data from Salesforce with a Golang script, with each Salesforce object (`.../topics` objects) being run on an independent virtualization on a Docker container in Argo workflows that is pulled from Amazon s3. The documentation here describes the use of the `generate.sh` and `submit.sh` bash scripts, as well as the proccess of scheduling a new topic to be run through an instance of the salesforce-extractor Docker container.
 
 ## About generate.sh and submit.sh
-`generate.sh` and `submit.sh` are used when you want to update `cronworkflow` of all salesforce-extractor topics. These bash scripts, in conjunction with editing allow you to do things such as:
+`generate.sh` and `submit.sh` are used when you want to update `.../cronworkflows` that are corellated to `.../topics` objects. These bash scripts, in conjunction with editing allow you to do things such as:
 - Schedule repeated execution of the salesforce-extractor executable for all topics in `topics` in seperate Docker Containers.
 - Modify the scheduling and fields of all `cronworkflow` topics to reflect `CronTemplate.yml`. This is done as necessary for recordkeeping.
+- Schedule new topics to be run on `salesforce-extractor` containers.
 
 ### generate.sh
 `generate.sh` overwrites the fields and values of all `/*.yml` in `cronworkflow` that are present in the `CronTemplate.yml` document, and generates `cronworkflow` objects pulling information from all objects `topics` folder.
