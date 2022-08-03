@@ -7,7 +7,7 @@ This file documents part of a larger project called salesforce-extractor, which 
 - Modify the scheduling and fields of all `cronworkflow` topics to reflect `CronTemplate.yml`. This is done as necessary for recordkeeping.
 
 ### generate.sh
-`generate.sh` overwrites the fields and values of all `/*.yml` in `cronworkflow` that are present in the `CronTemplate.yml`document, and generates `cronworkflow` objects pulling information from all objects `topics` folder.
+`generate.sh` overwrites the fields and values of all `/*.yml` in `cronworkflow` that are present in the `CronTemplate.yml` document, and generates `cronworkflow` objects pulling information from all objects `topics` folder.
 
 For example, I could modify the `schedule:` field in `CronTemplate.yml` if I decide that I want to run `salesforce-extractor` for all topics once every thirty minutes by changing `schedule`'s value to `[[ or.schedule "*/30 * * * *]]`. 
 
