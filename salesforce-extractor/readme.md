@@ -1,7 +1,7 @@
 # Readme.md
 This file documents part of a larger project called `salesforce-extractor`, which involves exporting large amounts of data from Salesforce with a Golang script, with each Salesforce object (`.../topics` objects) being run on an independent virtualization on a Docker container in Argo workflows that is pulled from Amazon s3. The documentation here describes the use of the `generate.sh` and `submit.sh` bash scripts, as well as the proccess of scheduling a new topic to be run through an instance of the salesforce-extractor Docker container.
 
-## Schedule A Docker Container to Run a new Instance of Sales-Force Extractor 
+## Schedule A Docker Container to Run a new Instance of salesforce-extractor 
 
 The following describes how to schedule Argo pull a new unique instance of the Salesforce-extractor Docker container from s3.
 
