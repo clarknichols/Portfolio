@@ -77,16 +77,16 @@ Header and Section Titles in mailchimp should be:
 
 ### Buttons
 - Font for all buttons should be Arial
-- All Buttons should be color `#2baadf`
-- Font color for all buttons should be white `#FFFFFF`
+- All Buttons should be blue, hexccode `#2baadf`
+- Font color for all buttons should be white, hexcode `#FFFFFF`
 
 ### Videos
-- Background color should be blue `#2baadf`
-- Font color for all text within the background should be white `#FFFFFF`
+- Background color should be blue, hexcode `#2baadf`
+- Font color for all text within the background should be white, hexcode `#FFFFFF`
 
 ### Picture Inserts With a Background Frame
-- Background color should be blue `#2baadf`
-- Font color for all text in Picture Inserts with frame should be white `#FFFFFF`
+- Background color should be blue, hexcode `#2baadf`
+- Font color for all text in Picture Inserts with frame should be white, hexcode `#FFFFFF`
 
 ## Style and Tone
 All style and tone content here is reiterated in the Style and Tone document.
