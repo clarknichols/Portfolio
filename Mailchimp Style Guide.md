@@ -103,7 +103,7 @@ Tone of New West external marketing communications should always lean on the sid
 - Limit use of exclamation points to once per page if possible.
 
 ### Contractions
-- Contractions such as "won't" "don't" "can't" are acceptable.
+- Contractions such as `won't`, `don't`, or `can't` are acceptable.
 - Contractions such as "you'll" or "We'll" or "we've" are not acceptable as they don't conform to New West Symphony's reputation of providing "refined" entertainment.
 
 ### Possessives
